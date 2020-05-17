@@ -1,0 +1,6 @@
+framework module Pods_Accelo_AcceloUITests {
+  umbrella header "Pods-Accelo-AcceloUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/
+*.xcodeproj/xcuserdata/*.xcuserdatad/
+*.xcworkspace/xcuserdata/*.xcuserdatad/
+fastlane/report.xml
+*.app.dSYM.zip
+*.ipa
+.vscode/
+
+*.orig
+

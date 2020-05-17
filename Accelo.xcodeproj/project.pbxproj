@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045466B62002957EF3776A20 /* Pods_Accelo_AcceloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F288B975741D391DC7A5AE /* Pods_Accelo_AcceloUITests.framework */; };
+		268A3CE665C8A20543508FB3 /* Pods_Accelo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42857FB9CB953C20C50654D3 /* Pods_Accelo.framework */; };
+		85C939C1283D97D8865A4541 /* Pods_AcceloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4177B6DC6014950C298885 /* Pods_AcceloTests.framework */; };
+		B5144B58247174DC00167669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144B57247174DC00167669 /* AppDelegate.swift */; };
+		B5144B5A247174DC00167669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144B59247174DC00167669 /* SceneDelegate.swift */; };
+		B5144B5C247174DC00167669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144B5B247174DC00167669 /* ViewController.swift */; };
+		B5144B5F247174DC00167669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5144B5D247174DC00167669 /* Main.storyboard */; };
+		B5144B61247174DD00167669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5144B60247174DD00167669 /* Assets.xcassets */; };
+		B5144B64247174DD00167669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5144B62247174DD00167669 /* LaunchScreen.storyboard */; };
+		B5144B6F247174DD00167669 /* AcceloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144B6E247174DD00167669 /* AcceloTests.swift */; };
+		B5144B7A247174DD00167669 /* AcceloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144B79247174DD00167669 /* AcceloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5144B6B247174DD00167669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5144B4C247174DC00167669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5144B53247174DC00167669;
+			remoteInfo = Accelo;
+		};
+		B5144B76247174DD00167669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5144B4C247174DC00167669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5144B53247174DC00167669;
+			remoteInfo = Accelo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19FE151F85A5E63E02763B42 /* Pods-Accelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo.debug.xcconfig"; path = "Target Support Files/Pods-Accelo/Pods-Accelo.debug.xcconfig"; sourceTree = "<group>"; };
+		42857FB9CB953C20C50654D3 /* Pods_Accelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accelo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46885467A95A3854F0CA2DDE /* Pods-Accelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo.release.xcconfig"; path = "Target Support Files/Pods-Accelo/Pods-Accelo.release.xcconfig"; sourceTree = "<group>"; };
+		7872F1C8CD0C4A6430BD9973 /* Pods-AcceloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloTests.release.xcconfig"; path = "Target Support Files/Pods-AcceloTests/Pods-AcceloTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D4177B6DC6014950C298885 /* Pods_AcceloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F288B975741D391DC7A5AE /* Pods_Accelo_AcceloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accelo_AcceloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5144B54247174DC00167669 /* Accelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5144B57247174DC00167669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5144B59247174DC00167669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5144B5B247174DC00167669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5144B5E247174DC00167669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5144B60247174DD00167669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5144B63247174DD00167669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5144B65247174DD00167669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5144B6A247174DD00167669 /* AcceloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5144B6E247174DD00167669 /* AcceloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceloTests.swift; sourceTree = "<group>"; };
+		B5144B70247174DD00167669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5144B75247174DD00167669 /* AcceloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5144B79247174DD00167669 /* AcceloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceloUITests.swift; sourceTree = "<group>"; };
+		B5144B7B247174DD00167669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BD99C622A89554B1F4DB78 /* Pods-Accelo-AcceloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.release.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3F058A4CF568CC734492CB4 /* Pods-Accelo-AcceloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.debug.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F814A7D0536EECD5CA60E6C3 /* Pods-AcceloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloTests.debug.xcconfig"; path = "Target Support Files/Pods-AcceloTests/Pods-AcceloTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5144B51247174DC00167669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268A3CE665C8A20543508FB3 /* Pods_Accelo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B67247174DD00167669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C939C1283D97D8865A4541 /* Pods_AcceloTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B72247174DD00167669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045466B62002957EF3776A20 /* Pods_Accelo_AcceloUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8D7035BD05F902400D75BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42857FB9CB953C20C50654D3 /* Pods_Accelo.framework */,
+				A1F288B975741D391DC7A5AE /* Pods_Accelo_AcceloUITests.framework */,
+				9D4177B6DC6014950C298885 /* Pods_AcceloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1C8FA798DB5DF0DAA618058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FE151F85A5E63E02763B42 /* Pods-Accelo.debug.xcconfig */,
+				46885467A95A3854F0CA2DDE /* Pods-Accelo.release.xcconfig */,
+				F3F058A4CF568CC734492CB4 /* Pods-Accelo-AcceloUITests.debug.xcconfig */,
+				C8BD99C622A89554B1F4DB78 /* Pods-Accelo-AcceloUITests.release.xcconfig */,
+				F814A7D0536EECD5CA60E6C3 /* Pods-AcceloTests.debug.xcconfig */,
+				7872F1C8CD0C4A6430BD9973 /* Pods-AcceloTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5144B4B247174DC00167669 = {
+			isa = PBXGroup;
+			children = (
+				B5144B56247174DC00167669 /* Accelo */,
+				B5144B6D247174DD00167669 /* AcceloTests */,
+				B5144B78247174DD00167669 /* AcceloUITests */,
+				B5144B55247174DC00167669 /* Products */,
+				A1C8FA798DB5DF0DAA618058 /* Pods */,
+				1C8D7035BD05F902400D75BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5144B55247174DC00167669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B54247174DC00167669 /* Accelo.app */,
+				B5144B6A247174DD00167669 /* AcceloTests.xctest */,
+				B5144B75247174DD00167669 /* AcceloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5144B56247174DC00167669 /* Accelo */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B872471760800167669 /* API */,
+				B5144B57247174DC00167669 /* AppDelegate.swift */,
+				B5144B59247174DC00167669 /* SceneDelegate.swift */,
+				B5144B5B247174DC00167669 /* ViewController.swift */,
+				B5144B5D247174DC00167669 /* Main.storyboard */,
+				B5144B60247174DD00167669 /* Assets.xcassets */,
+				B5144B62247174DD00167669 /* LaunchScreen.storyboard */,
+				B5144B65247174DD00167669 /* Info.plist */,
+			);
+			path = Accelo;
+			sourceTree = "<group>";
+		};
+		B5144B6D247174DD00167669 /* AcceloTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B6E247174DD00167669 /* AcceloTests.swift */,
+				B5144B70247174DD00167669 /* Info.plist */,
+			);
+			path = AcceloTests;
+			sourceTree = "<group>";
+		};
+		B5144B78247174DD00167669 /* AcceloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B79247174DD00167669 /* AcceloUITests.swift */,
+				B5144B7B247174DD00167669 /* Info.plist */,
+			);
+			path = AcceloUITests;
+			sourceTree = "<group>";
+		};
+		B5144B872471760800167669 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5144B53247174DC00167669 /* Accelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5144B7E247174DD00167669 /* Build configuration list for PBXNativeTarget "Accelo" */;
+			buildPhases = (
+				D035BE07784E2A9EF57A6F6E /* [CP] Check Pods Manifest.lock */,
+				B5144B50247174DC00167669 /* Sources */,
+				B5144B51247174DC00167669 /* Frameworks */,
+				B5144B52247174DC00167669 /* Resources */,
+				B5144B8A2471771500167669 /* Run Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accelo;
+			productName = Accelo;
+			productReference = B5144B54247174DC00167669 /* Accelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5144B69247174DD00167669 /* AcceloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5144B81247174DD00167669 /* Build configuration list for PBXNativeTarget "AcceloTests" */;
+			buildPhases = (
+				0965797ECC8914BB5F12A6AB /* [CP] Check Pods Manifest.lock */,
+				B5144B66247174DD00167669 /* Sources */,
+				B5144B67247174DD00167669 /* Frameworks */,
+				B5144B68247174DD00167669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5144B6C247174DD00167669 /* PBXTargetDependency */,
+			);
+			name = AcceloTests;
+			productName = AcceloTests;
+			productReference = B5144B6A247174DD00167669 /* AcceloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5144B74247174DD00167669 /* AcceloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5144B84247174DD00167669 /* Build configuration list for PBXNativeTarget "AcceloUITests" */;
+			buildPhases = (
+				B72CC0255CF7AD89A0E13851 /* [CP] Check Pods Manifest.lock */,
+				B5144B71247174DD00167669 /* Sources */,
+				B5144B72247174DD00167669 /* Frameworks */,
+				B5144B73247174DD00167669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5144B77247174DD00167669 /* PBXTargetDependency */,
+			);
+			name = AcceloUITests;
+			productName = AcceloUITests;
+			productReference = B5144B75247174DD00167669 /* AcceloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5144B4C247174DC00167669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jay Salvador";
+				TargetAttributes = {
+					B5144B53247174DC00167669 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B5144B69247174DD00167669 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B5144B53247174DC00167669;
+					};
+					B5144B74247174DD00167669 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B5144B53247174DC00167669;
+					};
+				};
+			};
+			buildConfigurationList = B5144B4F247174DC00167669 /* Build configuration list for PBXProject "Accelo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5144B4B247174DC00167669;
+			productRefGroup = B5144B55247174DC00167669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5144B53247174DC00167669 /* Accelo */,
+				B5144B69247174DD00167669 /* AcceloTests */,
+				B5144B74247174DD00167669 /* AcceloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5144B52247174DC00167669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5144B64247174DD00167669 /* LaunchScreen.storyboard in Resources */,
+				B5144B61247174DD00167669 /* Assets.xcassets in Resources */,
+				B5144B5F247174DC00167669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B68247174DD00167669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B73247174DD00167669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0965797ECC8914BB5F12A6AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcceloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5144B8A2471771500167669 /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		B72CC0255CF7AD89A0E13851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Accelo-AcceloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D035BE07784E2A9EF57A6F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Accelo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5144B50247174DC00167669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5144B5C247174DC00167669 /* ViewController.swift in Sources */,
+				B5144B58247174DC00167669 /* AppDelegate.swift in Sources */,
+				B5144B5A247174DC00167669 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B66247174DD00167669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5144B6F247174DD00167669 /* AcceloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5144B71247174DD00167669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5144B7A247174DD00167669 /* AcceloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5144B6C247174DD00167669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5144B53247174DC00167669 /* Accelo */;
+			targetProxy = B5144B6B247174DD00167669 /* PBXContainerItemProxy */;
+		};
+		B5144B77247174DD00167669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5144B53247174DC00167669 /* Accelo */;
+			targetProxy = B5144B76247174DD00167669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5144B5D247174DC00167669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5144B5E247174DC00167669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5144B62247174DD00167669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5144B63247174DD00167669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5144B7C247174DD00167669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5144B7D247174DD00167669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5144B7F247174DD00167669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FE151F85A5E63E02763B42 /* Pods-Accelo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Accelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.Accelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5144B80247174DD00167669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46885467A95A3854F0CA2DDE /* Pods-Accelo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Accelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.Accelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5144B82247174DD00167669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F814A7D0536EECD5CA60E6C3 /* Pods-AcceloTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.AcceloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelo.app/Accelo";
+			};
+			name = Debug;
+		};
+		B5144B83247174DD00167669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7872F1C8CD0C4A6430BD9973 /* Pods-AcceloTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.AcceloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelo.app/Accelo";
+			};
+			name = Release;
+		};
+		B5144B85247174DD00167669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F058A4CF568CC734492CB4 /* Pods-Accelo-AcceloUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.AcceloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accelo;
+			};
+			name = Debug;
+		};
+		B5144B86247174DD00167669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BD99C622A89554B1F4DB78 /* Pods-Accelo-AcceloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcceloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysalvador.AcceloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accelo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5144B4F247174DC00167669 /* Build configuration list for PBXProject "Accelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5144B7C247174DD00167669 /* Debug */,
+				B5144B7D247174DD00167669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5144B7E247174DD00167669 /* Build configuration list for PBXNativeTarget "Accelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5144B7F247174DD00167669 /* Debug */,
+				B5144B80247174DD00167669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5144B81247174DD00167669 /* Build configuration list for PBXNativeTarget "AcceloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5144B82247174DD00167669 /* Debug */,
+				B5144B83247174DD00167669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5144B84247174DD00167669 /* Build configuration list for PBXNativeTarget "AcceloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5144B85247174DD00167669 /* Debug */,
+				B5144B86247174DD00167669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5144B4C247174DC00167669 /* Project object */;
+}
