@@ -12,9 +12,17 @@ import GoogleMaps
 
 class ViewController: UIViewController, GMSMapViewDelegate {
     
+    // MARK: - View Model
+    
     private var viewModel: ViewModelProtocol = ViewModel()
     
+    // MARK: - Callbacks
+    
+    private var debounceMethod: (() -> Void)?
+    
     private var mapView: GMSMapView?
+        
+    // MARK: - Setup
     
     private func setupViewModel() {
         
@@ -36,9 +44,12 @@ class ViewController: UIViewController, GMSMapViewDelegate {
                 self?.present(alert, animated: true, completion: nil)
             }
         }
-    }
         
-    // MARK: - Setup
+        self.debounceMethod = DispatchQueue.background.debounce(delay: .seconds(1)) { [weak self] in
+            
+            self?.viewModel.getCrimes()
+        }
+    }
 
     override func viewDidLoad() {
         
@@ -63,8 +74,6 @@ class ViewController: UIViewController, GMSMapViewDelegate {
             
             mapView?.animate(with: zoom)
         }
-        
-        self.viewModel.getCrimes()
     }
     
     private func updateAnnotations() {
@@ -97,7 +106,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         self.viewModel.lng = position.target.longitude
         
-        self.viewModel.getCrimes()
+        self.debounceMethod?()
     }
     
 }
