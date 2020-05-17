@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,6 +34,8 @@
 		B5144BBE2471833B00167669 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BBD2471833B00167669 /* KeyedDecodingContainer.swift */; };
 		B5144BC02471836E00167669 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BBF2471836E00167669 /* String.swift */; };
 		B5144BC2247185D800167669 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BC1247185D800167669 /* Date.swift */; };
+		B5144BC42471873E00167669 /* AppDelegate+GoogleSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BC32471873E00167669 /* AppDelegate+GoogleSetup.swift */; };
+		B5144BC7247188CE00167669 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BC6247188CE00167669 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,8 @@
 		B5144BBD2471833B00167669 /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainer.swift; sourceTree = "<group>"; };
 		B5144BBF2471836E00167669 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B5144BC1247185D800167669 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B5144BC32471873E00167669 /* AppDelegate+GoogleSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+GoogleSetup.swift"; sourceTree = "<group>"; };
+		B5144BC6247188CE00167669 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C8BD99C622A89554B1F4DB78 /* Pods-Accelo-AcceloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.release.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3F058A4CF568CC734492CB4 /* Pods-Accelo-AcceloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.debug.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F814A7D0536EECD5CA60E6C3 /* Pods-AcceloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloTests.debug.xcconfig"; path = "Target Support Files/Pods-AcceloTests/Pods-AcceloTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,13 +197,9 @@
 		B5144B56247174DC00167669 /* Accelo */ = {
 			isa = PBXGroup;
 			children = (
-				B5144B57247174DC00167669 /* AppDelegate.swift */,
-				B5144B59247174DC00167669 /* SceneDelegate.swift */,
-				B5144B5B247174DC00167669 /* ViewController.swift */,
-				B5144B5D247174DC00167669 /* Main.storyboard */,
-				B5144B60247174DD00167669 /* Assets.xcassets */,
-				B5144B62247174DD00167669 /* LaunchScreen.storyboard */,
 				B5144B65247174DD00167669 /* Info.plist */,
+				B5144BC8247188D300167669 /* Common */,
+				B5144BC5247188B400167669 /* ViewControllers */,
 			);
 			path = Accelo;
 			sourceTree = "<group>";
@@ -276,6 +276,28 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
+		B5144BC5247188B400167669 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B5B247174DC00167669 /* ViewController.swift */,
+				B5144BC6247188CE00167669 /* ViewModel.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B5144BC8247188D300167669 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B5144B57247174DC00167669 /* AppDelegate.swift */,
+				B5144BC32471873E00167669 /* AppDelegate+GoogleSetup.swift */,
+				B5144B59247174DC00167669 /* SceneDelegate.swift */,
+				B5144B5D247174DC00167669 /* Main.storyboard */,
+				B5144B60247174DD00167669 /* Assets.xcassets */,
+				B5144B62247174DD00167669 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -288,6 +310,7 @@
 				B5144B51247174DC00167669 /* Frameworks */,
 				B5144B52247174DC00167669 /* Resources */,
 				B5144B8A2471771500167669 /* Run Swiftlint */,
+				462E74FEF0D9259B9E1DC792 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,6 +348,7 @@
 				B5144B71247174DD00167669 /* Sources */,
 				B5144B72247174DD00167669 /* Frameworks */,
 				B5144B73247174DD00167669 /* Resources */,
+				FA141AC68D6E73A86F56A64A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,6 +474,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		462E74FEF0D9259B9E1DC792 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accelo/Pods-Accelo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accelo/Pods-Accelo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Accelo/Pods-Accelo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B5144B8A2471771500167669 /* Run Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,6 +553,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FA141AC68D6E73A86F56A64A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -519,7 +577,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5144BC7247188CE00167669 /* ViewModel.swift in Sources */,
 				B5144B5C247174DC00167669 /* ViewController.swift in Sources */,
+				B5144BC42471873E00167669 /* AppDelegate+GoogleSetup.swift in Sources */,
 				B5144B58247174DC00167669 /* AppDelegate.swift in Sources */,
 				B5144B5A247174DC00167669 /* SceneDelegate.swift in Sources */,
 			);

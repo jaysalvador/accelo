@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import MapKit
 
 public struct Location: Codable {
     
@@ -32,7 +33,7 @@ public struct Location: Codable {
         
         if let streetContainer = try? container.nestedContainer(keyedBy: CodingKeys.self, forKey: .street) {
             
-            self.name = try streetContainer.decodeIfPresent(String.self, forKey: .street)
+            self.name = try streetContainer.decodeIfPresent(String.self, forKey: .name)
         }
     }
     
@@ -43,5 +44,18 @@ public struct Location: Codable {
         try container.encodeIfPresent(self.longitude, forKey: .longitude)
         try container.encodeIfPresent(self.latitude, forKey: .latitude)
         try container.encodeIfPresent(self.name, forKey: .name)
+    }
+}
+
+extension Location {
+    
+    public var coordinates: CLLocationCoordinate2D? {
+        
+        guard let latitude = self.latitude, let longitude = self.longitude else {
+            
+            return nil
+        }
+        
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol CrimeClientProtocol {
+public protocol CrimeClientProtocol {
         
     func getCrimes(lat: Double?, lng: Double?, onCompletion: HttpCompletionClosure<[Crime]>?)
         
@@ -44,4 +44,3 @@ public class CrimeClient: HttpClient, CrimeClientProtocol {
         )
     }
 }
-
