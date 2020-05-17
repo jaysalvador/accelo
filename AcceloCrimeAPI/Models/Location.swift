@@ -27,8 +27,8 @@ public struct Location: Codable {
 
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        self.longitude = try container.decodeIfPresent(Double.self, forKey: .longitude)
-        self.latitude = try container.decodeIfPresent(Double.self, forKey: .latitude)
+        self.longitude = container.doubleIfPresent(forKey: .longitude)
+        self.latitude = container.doubleIfPresent(forKey: .latitude)
         
         if let streetContainer = try? container.nestedContainer(keyedBy: CodingKeys.self, forKey: .street) {
             

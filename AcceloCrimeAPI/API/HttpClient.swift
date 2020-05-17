@@ -30,7 +30,7 @@ public class HttpClient: HttpClientProtocol {
     public convenience init?() {
         
         self.init(
-            baseUrl: "https://api.thedogapi.com/v1",
+            baseUrl: "https://data.police.uk/api",
             urlSession: URLSession.shared)
     }
     
@@ -99,6 +99,8 @@ public class HttpClient: HttpClientProtocol {
                         let decoder = JSONDecoder()
                         
                         let decoded = try decoder.decode(returnType, from: data)
+                        
+                        decoder.dateDecodingStrategy = .formatted(.dateMonth)
                         
                         DispatchQueue.main.async {
                                                         

@@ -24,5 +24,17 @@ public struct Crime: Codable {
         case location
         case outcomeStatus = "outcome_status"
     }
+
+    // decoder override to handle dates and numbers
+    public init(from decoder: Decoder) throws {
+
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        self.id = try container.decodeIfPresent(Int.self, forKey: .id)
+        self.month = container.dateIfPresent(forKey: .month)
+        self.category = try container.decodeIfPresent(String.self, forKey: .category)
+        self.location = try container.decodeIfPresent(Location.self, forKey: .location)
+        self.outcomeStatus = try container.decodeIfPresent(Outcome.self, forKey: .outcomeStatus)
+    }
     
 }
