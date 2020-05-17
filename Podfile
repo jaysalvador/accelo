@@ -6,6 +6,9 @@ target 'Accelo' do
   use_frameworks!
 
   # Pods for Accelo
+
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
   pod 'SwiftLint'
 
   target 'AcceloTests' do

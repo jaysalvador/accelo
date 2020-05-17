@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
 		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
@@ -16,27 +26,57 @@
 			);
 			name = SwiftLint;
 		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		030C6E28614F1D365AF34675FDDEFB4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0EB840EB4C2062912E282964E58BF4C6 /* Pods-AcceloTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C9FE2D00730544FBFF7962654A55C /* Pods-AcceloTests-dummy.m */; };
+		0EB840EB4C2062912E282964E58BF4C6 /* Pods-AcceloTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F9542E68F0999E376D321AADEF259 /* Pods-AcceloTests-dummy.m */; };
+		1CFA21106A867214A16C03310D954254 /* Pods-Accelo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CAFD28ED35D428645D419443D8F8B3 /* Pods-Accelo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23460F415DCECF3A7850A10838E75D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2893A8309AFBA820812E67251E5406C9 /* Pods-Accelo-AcceloUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53138E4E7B60333D1C91734FE1660D68 /* Pods-Accelo-AcceloUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31AEABB60CDF4034DAB33422275A31EA /* Pods-Accelo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B75D0B162B85B36C556624EBD19D1B /* Pods-Accelo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4968C2AE28AAEB077AD21616A1EA684F /* Pods-Accelo-AcceloUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE7ED1E0ECD634E21C343E31ABFEDD1 /* Pods-Accelo-AcceloUITests-dummy.m */; };
-		741217668EE70A72829F6F8206D6BE01 /* Pods-AcceloTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFA9DDFDAE7CF43292D33B2697EDB13 /* Pods-AcceloTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD0B58F85953245908B98A63B92AFF9C /* Pods-Accelo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA39C1D8F5D63404139B116C78B8AFB /* Pods-Accelo-dummy.m */; };
-		BBF052B86E20A7F6C9ED1AA806B33E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		521BB51E34B2416A8119139F28685233 /* Pods-Accelo-AcceloUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE82B5F9C6C288E9C86B90D58C5E23D /* Pods-Accelo-AcceloUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741217668EE70A72829F6F8206D6BE01 /* Pods-AcceloTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0391AE4DC785ABCDD9507882E23B8A7 /* Pods-AcceloTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BC93981B6F1C4FE5407FA1E5242066 /* Pods-Accelo-AcceloUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCCE4E3B620DB8025F427D2FA6FC36 /* Pods-Accelo-AcceloUITests-dummy.m */; };
+		98061840FE12481CF8D17FCE758A797D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D02EB2A0A0253D3C67517839ED7CB42D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE1D7E6F41A9CB5296540CF232186BA3 /* Pods-Accelo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED5EE3FD97611D417C9A8D4B8036C3 /* Pods-Accelo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69C53F7462226DF99D173F39CD5D6CEE /* PBXContainerItemProxy */ = {
+		07A711AA8C398BFA4FD63AE40887C38E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
+		};
+		6911BBEF868C455B4F428089D481F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		7D8A854DED9E52247E09A2F8E5C2D13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
 		};
 		A8962EC63912D48C53E681AFA3394462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,58 +85,76 @@
 			remoteGlobalIDString = 982D27908DF73431AE53CB464D5EB4E3;
 			remoteInfo = "Pods-Accelo";
 		};
-		D4EC61B387DD40AEA743C3DFEC2C6C61 /* PBXContainerItemProxy */ = {
+		B7744F31C9FC5EAAC6455D1008B027BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		D677EAE07E00F10655F942312AAF1F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		D953207272749607D623932C6EA10195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01EFA2B90E67FF8867456087ED911058 /* Pods_Accelo_AcceloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Accelo_AcceloUITests.framework; path = "Pods-Accelo-AcceloUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		065ABB098C891C263DB3E4745CA73CD9 /* Pods-Accelo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-Info.plist"; sourceTree = "<group>"; };
-		15163F46C487C6084A698714B40C74E3 /* Pods-AcceloTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcceloTests-Info.plist"; sourceTree = "<group>"; };
-		2B8BA4FEECB06CAA331A1074D089838B /* Pods-Accelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo.debug.xcconfig"; sourceTree = "<group>"; };
+		02CF1149C669B600A0EBFEE5A5D30AA1 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		08ED5EE3FD97611D417C9A8D4B8036C3 /* Pods-Accelo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelo-dummy.m"; sourceTree = "<group>"; };
+		0C47A2783EA0055D218F0D8D5C38660C /* Pods-Accelo-AcceloUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-AcceloUITests-Info.plist"; sourceTree = "<group>"; };
+		0D0DB43A578EDE8D062D28FE85BAE81D /* Pods-Accelo-AcceloUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelo-AcceloUITests-resources.sh"; sourceTree = "<group>"; };
+		103DFEEEB1BF4399B6762A9902B9687F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		10C8E1355AEB8DFEF6AD8DD0265BD021 /* Pods-AcceloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcceloTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C3520D56013D94629C9D8C018D02951 /* Pods-Accelo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-Info.plist"; sourceTree = "<group>"; };
+		22CCCE4E3B620DB8025F427D2FA6FC36 /* Pods-Accelo-AcceloUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelo-AcceloUITests-dummy.m"; sourceTree = "<group>"; };
+		268384F29C3F58B621098117309BD421 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		29FE69FC8DFF558AC16F1D481B92C968 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		2DF79A4C9F367A44D5B3A13C37732046 /* Pods-Accelo-AcceloUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Accelo-AcceloUITests.modulemap"; sourceTree = "<group>"; };
+		30E1B2EE79E9035D1918EAB11CAEDA7D /* Pods-Accelo-AcceloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo-AcceloUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3348B15185301AF8203E83E015FEE682 /* Pods-AcceloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcceloTests.release.xcconfig"; sourceTree = "<group>"; };
-		3481E56541D37DFC07D62B804485B5E8 /* Pods-Accelo-AcceloUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-AcceloUITests-Info.plist"; sourceTree = "<group>"; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		4012D4EF729F7B77F061256D157003BA /* Pods_AcceloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AcceloTests.framework; path = "Pods-AcceloTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53138E4E7B60333D1C91734FE1660D68 /* Pods-Accelo-AcceloUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelo-AcceloUITests-umbrella.h"; sourceTree = "<group>"; };
-		5B8B9BF5D2174B27375011379E4EFA79 /* Pods-Accelo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Accelo.modulemap"; sourceTree = "<group>"; };
-		6CA39C1D8F5D63404139B116C78B8AFB /* Pods-Accelo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelo-dummy.m"; sourceTree = "<group>"; };
-		6CE6FB69ACB8B53BA357BAAECDA68ED5 /* Pods-AcceloTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AcceloTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6CE7ED1E0ECD634E21C343E31ABFEDD1 /* Pods-Accelo-AcceloUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Accelo-AcceloUITests-dummy.m"; sourceTree = "<group>"; };
-		70B75D0B162B85B36C556624EBD19D1B /* Pods-Accelo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelo-umbrella.h"; sourceTree = "<group>"; };
-		7E107636E5416F2580B57AF748EC1C14 /* Pods-Accelo-AcceloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo-AcceloUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		800873D07D6882B82D00E2CA48C1A934 /* Pods-Accelo-AcceloUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelo-AcceloUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9280504706529B6C6DD88DA7E85AD261 /* Pods-Accelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo.release.xcconfig"; sourceTree = "<group>"; };
-		939D913C84385FE4998FF64C164B779A /* Pods-AcceloTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcceloTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4548D47F5B008164DACC9D7B882754A4 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		479F6E64070C0F8F15AF6D4614E4C5B1 /* Pods-Accelo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Accelo.modulemap"; sourceTree = "<group>"; };
+		50AC17293D5D3B6888079243FBC97C31 /* Pods-AcceloTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AcceloTests.modulemap"; sourceTree = "<group>"; };
+		52E6D4CE8F9D37A2061A85260880AF3B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		5C17B3A910A98AE3E4480289D061C911 /* Pods-Accelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCE9E384C05DB9D89490F7FAA930A4B /* Pods-AcceloTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcceloTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		628A056F8507A4A6D7DEB05D6B928885 /* Pods-Accelo-AcceloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo-AcceloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BE82B5F9C6C288E9C86B90D58C5E23D /* Pods-Accelo-AcceloUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelo-AcceloUITests-umbrella.h"; sourceTree = "<group>"; };
+		82EBCC649E8FFC0ACAB5F25E3BDFEC4C /* Pods-Accelo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Accelo-resources.sh"; sourceTree = "<group>"; };
+		88CAFD28ED35D428645D419443D8F8B3 /* Pods-Accelo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Accelo-umbrella.h"; sourceTree = "<group>"; };
+		98F0F8475D7AAF6AA02262BC9B94A643 /* Pods-AcceloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcceloTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A546DD58060DD296D8F3846D7C1361E3 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		AA4E9DBAD630AD8F8C348C1B2957857A /* Pods-AcceloTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcceloTests-Info.plist"; sourceTree = "<group>"; };
 		B0E2097F87E9B2DD475A0E5454B6BD81 /* Pods_Accelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Accelo.framework; path = "Pods-Accelo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50D77B30AB24A96F260AC26E3F15054 /* Pods-AcceloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcceloTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B83C9FE2D00730544FBFF7962654A55C /* Pods-AcceloTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AcceloTests-dummy.m"; sourceTree = "<group>"; };
-		BBFA9DDFDAE7CF43292D33B2697EDB13 /* Pods-AcceloTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AcceloTests-umbrella.h"; sourceTree = "<group>"; };
-		C9411CE4809957C1D58BC190747576CE /* Pods-Accelo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB508DA86EAA90FD4AEFDD79D20F0DA1 /* Pods-Accelo-AcceloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo-AcceloUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CDD7D6E31B982C2BE33F65CD49D7B6B6 /* Pods-AcceloTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AcceloTests.modulemap"; sourceTree = "<group>"; };
-		D444003060967D8B533EA81184206200 /* Pods-Accelo-AcceloUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-AcceloUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5E989679EC0E9743D4B920F19D81FCA /* Pods-Accelo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9A52724AB585FFC7B21C176C5E492A7 /* Pods-Accelo-AcceloUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Accelo-AcceloUITests.modulemap"; sourceTree = "<group>"; };
+		BD7417E89991DA0077DEB4B24662DAAF /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		C1415474BEE8FBCFBA8808FDBBEC7665 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		C94FD5BC68C66B790D045EA4E9ED5E3B /* Pods-Accelo-AcceloUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-AcceloUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF0DC10236A221FFBD3A425DBBC7C949 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		D0391AE4DC785ABCDD9507882E23B8A7 /* Pods-AcceloTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AcceloTests-umbrella.h"; sourceTree = "<group>"; };
+		D74F9542E68F0999E376D321AADEF259 /* Pods-AcceloTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AcceloTests-dummy.m"; sourceTree = "<group>"; };
+		D9DC7E5320BD6BFA886B0918BE2EBA98 /* Pods-AcceloTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AcceloTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA1B9706FAB5B3618C8796AF1FF9B80E /* Pods-Accelo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC3BECB2B818DA228C0BE03A20879B61 /* Pods-Accelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Accelo.release.xcconfig"; sourceTree = "<group>"; };
+		E06695563541CAA039D99351BB123E95 /* Pods-Accelo-AcceloUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Accelo-AcceloUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E14AAED38FAB8D3E19BBD1F543993B97 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		F6ECC4BC4355BBC101F653C8C1043C1F /* Pods-Accelo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Accelo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC29906260E3AAA62C8500AD4C584756 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FDF7FE3570B559014CFBAFF0DFF7907 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBF052B86E20A7F6C9ED1AA806B33E7F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5782F47158DA52C36CFB43261031EA32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,91 +163,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF5E0A14065EBA69D290B6030E5C10D9 /* Frameworks */ = {
+		5A68BD039E6051DBD075363DD4A3460A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030C6E28614F1D365AF34675FDDEFB4D /* Foundation.framework in Frameworks */,
+				D02EB2A0A0253D3C67517839ED7CB42D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0023CE43E243FDDBEB3F36075FC41D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98061840FE12481CF8D17FCE758A797D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D72A6FCC2BFA654BE47CBA55DE0678E /* Pods-Accelo */ = {
+		0D5170E68374A3B05BA3AE94D7EF4A10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B8B9BF5D2174B27375011379E4EFA79 /* Pods-Accelo.modulemap */,
-				C9411CE4809957C1D58BC190747576CE /* Pods-Accelo-acknowledgements.markdown */,
-				D5E989679EC0E9743D4B920F19D81FCA /* Pods-Accelo-acknowledgements.plist */,
-				6CA39C1D8F5D63404139B116C78B8AFB /* Pods-Accelo-dummy.m */,
-				065ABB098C891C263DB3E4745CA73CD9 /* Pods-Accelo-Info.plist */,
-				70B75D0B162B85B36C556624EBD19D1B /* Pods-Accelo-umbrella.h */,
-				2B8BA4FEECB06CAA331A1074D089838B /* Pods-Accelo.debug.xcconfig */,
-				9280504706529B6C6DD88DA7E85AD261 /* Pods-Accelo.release.xcconfig */,
+				FC29906260E3AAA62C8500AD4C584756 /* GoogleMapsBase.framework */,
 			);
-			name = "Pods-Accelo";
-			path = "Target Support Files/Pods-Accelo";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		14BF3F52BFC26EC981FE3165C603D4DA /* Pods-AcceloTests */ = {
+		2A8B5AB37D7B908ADBBAB39D5AB3F272 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				CDD7D6E31B982C2BE33F65CD49D7B6B6 /* Pods-AcceloTests.modulemap */,
-				6CE6FB69ACB8B53BA357BAAECDA68ED5 /* Pods-AcceloTests-acknowledgements.markdown */,
-				939D913C84385FE4998FF64C164B779A /* Pods-AcceloTests-acknowledgements.plist */,
-				B83C9FE2D00730544FBFF7962654A55C /* Pods-AcceloTests-dummy.m */,
-				15163F46C487C6084A698714B40C74E3 /* Pods-AcceloTests-Info.plist */,
-				BBFA9DDFDAE7CF43292D33B2697EDB13 /* Pods-AcceloTests-umbrella.h */,
-				B50D77B30AB24A96F260AC26E3F15054 /* Pods-AcceloTests.debug.xcconfig */,
-				3348B15185301AF8203E83E015FEE682 /* Pods-AcceloTests.release.xcconfig */,
+				0D5170E68374A3B05BA3AE94D7EF4A10 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		30454F7BA36A6C5424925769D9576E40 /* Pods-AcceloTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AC17293D5D3B6888079243FBC97C31 /* Pods-AcceloTests.modulemap */,
+				D9DC7E5320BD6BFA886B0918BE2EBA98 /* Pods-AcceloTests-acknowledgements.markdown */,
+				5FCE9E384C05DB9D89490F7FAA930A4B /* Pods-AcceloTests-acknowledgements.plist */,
+				D74F9542E68F0999E376D321AADEF259 /* Pods-AcceloTests-dummy.m */,
+				AA4E9DBAD630AD8F8C348C1B2957857A /* Pods-AcceloTests-Info.plist */,
+				D0391AE4DC785ABCDD9507882E23B8A7 /* Pods-AcceloTests-umbrella.h */,
+				98F0F8475D7AAF6AA02262BC9B94A643 /* Pods-AcceloTests.debug.xcconfig */,
+				10C8E1355AEB8DFEF6AD8DD0265BD021 /* Pods-AcceloTests.release.xcconfig */,
 			);
 			name = "Pods-AcceloTests";
 			path = "Target Support Files/Pods-AcceloTests";
 			sourceTree = "<group>";
 		};
-		4927957DD04977B44B6A4109953C42FF /* Targets Support Files */ = {
+		3A9DFCB061635E3BE71623C134F916CB /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				0D72A6FCC2BFA654BE47CBA55DE0678E /* Pods-Accelo */,
-				81EBF563AE8DCFE58B160814EEBF2C53 /* Pods-Accelo-AcceloUITests */,
-				14BF3F52BFC26EC981FE3165C603D4DA /* Pods-AcceloTests */,
+				2A8B5AB37D7B908ADBBAB39D5AB3F272 /* Base */,
+				DFE83DFD3BEAC7A240E39DA4B6BC4933 /* Maps */,
+				99A4DBBA8DC3DD07F2EBD1029486ACA8 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		56ED0A31391BF779F917CC7320C0515B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8942FCFBC25404376CC075DBD9560C91 /* Pods-Accelo */,
+				92CA69BE53FF891D262E601F03847CA9 /* Pods-Accelo-AcceloUITests */,
+				30454F7BA36A6C5424925769D9576E40 /* Pods-AcceloTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+		600E02C26A93724A8ABB38D7A5818EE9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+				A546DD58060DD296D8F3846D7C1361E3 /* SwiftLint.debug.xcconfig */,
+				02CF1149C669B600A0EBFEE5A5D30AA1 /* SwiftLint.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		81EBF563AE8DCFE58B160814EEBF2C53 /* Pods-Accelo-AcceloUITests */ = {
+		79D3971598F82859470257B0E0D83C7D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F9A52724AB585FFC7B21C176C5E492A7 /* Pods-Accelo-AcceloUITests.modulemap */,
-				800873D07D6882B82D00E2CA48C1A934 /* Pods-Accelo-AcceloUITests-acknowledgements.markdown */,
-				D444003060967D8B533EA81184206200 /* Pods-Accelo-AcceloUITests-acknowledgements.plist */,
-				6CE7ED1E0ECD634E21C343E31ABFEDD1 /* Pods-Accelo-AcceloUITests-dummy.m */,
-				3481E56541D37DFC07D62B804485B5E8 /* Pods-Accelo-AcceloUITests-Info.plist */,
-				53138E4E7B60333D1C91734FE1660D68 /* Pods-Accelo-AcceloUITests-umbrella.h */,
-				7E107636E5416F2580B57AF748EC1C14 /* Pods-Accelo-AcceloUITests.debug.xcconfig */,
-				CB508DA86EAA90FD4AEFDD79D20F0DA1 /* Pods-Accelo-AcceloUITests.release.xcconfig */,
+				CF0DC10236A221FFBD3A425DBBC7C949 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8942FCFBC25404376CC075DBD9560C91 /* Pods-Accelo */ = {
+			isa = PBXGroup;
+			children = (
+				479F6E64070C0F8F15AF6D4614E4C5B1 /* Pods-Accelo.modulemap */,
+				DA1B9706FAB5B3618C8796AF1FF9B80E /* Pods-Accelo-acknowledgements.markdown */,
+				F6ECC4BC4355BBC101F653C8C1043C1F /* Pods-Accelo-acknowledgements.plist */,
+				08ED5EE3FD97611D417C9A8D4B8036C3 /* Pods-Accelo-dummy.m */,
+				1C3520D56013D94629C9D8C018D02951 /* Pods-Accelo-Info.plist */,
+				82EBCC649E8FFC0ACAB5F25E3BDFEC4C /* Pods-Accelo-resources.sh */,
+				88CAFD28ED35D428645D419443D8F8B3 /* Pods-Accelo-umbrella.h */,
+				5C17B3A910A98AE3E4480289D061C911 /* Pods-Accelo.debug.xcconfig */,
+				DC3BECB2B818DA228C0BE03A20879B61 /* Pods-Accelo.release.xcconfig */,
+			);
+			name = "Pods-Accelo";
+			path = "Target Support Files/Pods-Accelo";
+			sourceTree = "<group>";
+		};
+		92CA69BE53FF891D262E601F03847CA9 /* Pods-Accelo-AcceloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF79A4C9F367A44D5B3A13C37732046 /* Pods-Accelo-AcceloUITests.modulemap */,
+				E06695563541CAA039D99351BB123E95 /* Pods-Accelo-AcceloUITests-acknowledgements.markdown */,
+				C94FD5BC68C66B790D045EA4E9ED5E3B /* Pods-Accelo-AcceloUITests-acknowledgements.plist */,
+				22CCCE4E3B620DB8025F427D2FA6FC36 /* Pods-Accelo-AcceloUITests-dummy.m */,
+				0C47A2783EA0055D218F0D8D5C38660C /* Pods-Accelo-AcceloUITests-Info.plist */,
+				0D0DB43A578EDE8D062D28FE85BAE81D /* Pods-Accelo-AcceloUITests-resources.sh */,
+				6BE82B5F9C6C288E9C86B90D58C5E23D /* Pods-Accelo-AcceloUITests-umbrella.h */,
+				628A056F8507A4A6D7DEB05D6B928885 /* Pods-Accelo-AcceloUITests.debug.xcconfig */,
+				30E1B2EE79E9035D1918EAB11CAEDA7D /* Pods-Accelo-AcceloUITests.release.xcconfig */,
 			);
 			name = "Pods-Accelo-AcceloUITests";
 			path = "Target Support Files/Pods-Accelo-AcceloUITests";
 			sourceTree = "<group>";
 		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+		99A4DBBA8DC3DD07F2EBD1029486ACA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+				268384F29C3F58B621098117309BD421 /* GoogleMaps.debug.xcconfig */,
+				BD7417E89991DA0077DEB4B24662DAAF /* GoogleMaps.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		A2B742AA31824D75F3523E07355FBBEE /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				600E02C26A93724A8ABB38D7A5818EE9 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		A6EA3AD6D33ED84BA29FA63CBFD5AE52 /* Products */ = {
@@ -202,6 +316,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BB36DB595CC2EB730A8E73C4D08880BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FE69FC8DFF558AC16F1D481B92C968 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,14 +332,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C9B72EAA69BD2DB4526A699171CE840E /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				BB36DB595CC2EB730A8E73C4D08880BB /* Frameworks */,
+				79D3971598F82859470257B0E0D83C7D /* Resources */,
+				E56A2AEFEEC940C61EE25F51919DF75A /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				ED7A5211664ABD33E68AFF26B7E5E7E0 /* Pods */,
 				A6EA3AD6D33ED84BA29FA63CBFD5AE52 /* Products */,
-				4927957DD04977B44B6A4109953C42FF /* Targets Support Files */,
+				56ED0A31391BF779F917CC7320C0515B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,31 +362,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+		DFE83DFD3BEAC7A240E39DA4B6BC4933 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+				E75D5C9177B9F3D5F49E1A3B03F1C4C2 /* Frameworks */,
+				E4D01B3D8AF411F8B7648C89021635E1 /* Resources */,
 			);
-			name = SwiftLint;
-			path = SwiftLint;
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		E4D01B3D8AF411F8B7648C89021635E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				103DFEEEB1BF4399B6762A9902B9687F /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E56A2AEFEEC940C61EE25F51919DF75A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1415474BEE8FBCFBA8808FDBBEC7665 /* GooglePlaces.debug.xcconfig */,
+				4548D47F5B008164DACC9D7B882754A4 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		E75D5C9177B9F3D5F49E1A3B03F1C4C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E6D4CE8F9D37A2061A85260880AF3B /* GoogleMaps.framework */,
+				E14AAED38FAB8D3E19BBD1F543993B97 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7A5211664ABD33E68AFF26B7E5E7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DFCB061635E3BE71623C134F916CB /* GoogleMaps */,
+				C9B72EAA69BD2DB4526A699171CE840E /* GooglePlaces */,
+				A2B742AA31824D75F3523E07355FBBEE /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		98B58709D685BA48A7812C9EC0DFA678 /* Headers */ = {
+		B1F68228F941EC67026354A5E53D7D54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AEABB60CDF4034DAB33422275A31EA /* Pods-Accelo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABB210F4BA8EEC5EA477A38D227B05FD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2893A8309AFBA820812E67251E5406C9 /* Pods-Accelo-AcceloUITests-umbrella.h in Headers */,
+				521BB51E34B2416A8119139F28685233 /* Pods-Accelo-AcceloUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +424,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				741217668EE70A72829F6F8206D6BE01 /* Pods-AcceloTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE5B7BF4B412F82AB1DA9906B12E473 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA21106A867214A16C03310D954254 /* Pods-Accelo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,17 +459,19 @@
 		};
 		982D27908DF73431AE53CB464D5EB4E3 /* Pods-Accelo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8CAC235C957C67EFB95BD8D116F8A86 /* Build configuration list for PBXNativeTarget "Pods-Accelo" */;
+			buildConfigurationList = 73E340E38AEA599120FE24965A3CDD95 /* Build configuration list for PBXNativeTarget "Pods-Accelo" */;
 			buildPhases = (
-				98B58709D685BA48A7812C9EC0DFA678 /* Headers */,
-				7A43511CDF78CD48A9A73228F420AF82 /* Sources */,
-				3FDF7FE3570B559014CFBAFF0DFF7907 /* Frameworks */,
-				BF69FCD0A3A3A7C31D747F611B66DF52 /* Resources */,
+				FCE5B7BF4B412F82AB1DA9906B12E473 /* Headers */,
+				D1D4E009B7DF746B86C8E32F803FEFBD /* Sources */,
+				5A68BD039E6051DBD075363DD4A3460A /* Frameworks */,
+				3396A350F8502B29331AC02BC3F7E70D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBAF92D226203E589382A05C21E44530 /* PBXTargetDependency */,
+				D7288C493740F71A3CA382102E0E00E2 /* PBXTargetDependency */,
+				41DA0D815AC3E80301C2762D0DC829BF /* PBXTargetDependency */,
+				7B2FD34B9F006783AD9B7A2FF0D1C5DE /* PBXTargetDependency */,
 			);
 			name = "Pods-Accelo";
 			productName = "Pods-Accelo";
@@ -308,17 +480,19 @@
 		};
 		B87608DED96ADAEA4C53470195E7DD48 /* Pods-Accelo-AcceloUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA0E9E64D886A022FBB3A337AB9DA01 /* Build configuration list for PBXNativeTarget "Pods-Accelo-AcceloUITests" */;
+			buildConfigurationList = B6027D0CE03B0FEEFAB6B6C21D74AE97 /* Build configuration list for PBXNativeTarget "Pods-Accelo-AcceloUITests" */;
 			buildPhases = (
-				ABB210F4BA8EEC5EA477A38D227B05FD /* Headers */,
-				198A02F5A41EEFFE604D0B98F4A0D4EE /* Sources */,
-				FF5E0A14065EBA69D290B6030E5C10D9 /* Frameworks */,
-				5BE4493B5F3465C856B8859FC47E6F23 /* Resources */,
+				B1F68228F941EC67026354A5E53D7D54 /* Headers */,
+				82DB42DD31ECF8C80A0E422764F3E7FD /* Sources */,
+				B0023CE43E243FDDBEB3F36075FC41D7 /* Frameworks */,
+				E88B00C8C0249D6D076CB3D4B0999710 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E15E95081DFD1A72569A6BDE26B64D2 /* PBXTargetDependency */,
+				7FAF27203383473C4158AA28B7791C76 /* PBXTargetDependency */,
+				25F9E9B2996FA6CD872E69D26B2F7308 /* PBXTargetDependency */,
+				BF8C95B1DB0BE31BE74BFFB778974CF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-Accelo-AcceloUITests";
 			productName = "Pods-Accelo-AcceloUITests";
@@ -347,6 +521,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
 				982D27908DF73431AE53CB464D5EB4E3 /* Pods-Accelo */,
 				B87608DED96ADAEA4C53470195E7DD48 /* Pods-Accelo-AcceloUITests */,
 				20790DC515C76E0853E57CD1BEC83E44 /* Pods-AcceloTests */,
@@ -356,7 +532,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5BE4493B5F3465C856B8859FC47E6F23 /* Resources */ = {
+		3396A350F8502B29331AC02BC3F7E70D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +546,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF69FCD0A3A3A7C31D747F611B66DF52 /* Resources */ = {
+		E88B00C8C0249D6D076CB3D4B0999710 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,19 +556,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		198A02F5A41EEFFE604D0B98F4A0D4EE /* Sources */ = {
+		82DB42DD31ECF8C80A0E422764F3E7FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4968C2AE28AAEB077AD21616A1EA684F /* Pods-Accelo-AcceloUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A43511CDF78CD48A9A73228F420AF82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD0B58F85953245908B98A63B92AFF9C /* Pods-Accelo-dummy.m in Sources */,
+				83BC93981B6F1C4FE5407FA1E5242066 /* Pods-Accelo-AcceloUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,72 +572,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1D4E009B7DF746B86C8E32F803FEFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1D7E6F41A9CB5296540CF232186BA3 /* Pods-Accelo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		25F9E9B2996FA6CD872E69D26B2F7308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = D953207272749607D623932C6EA10195 /* PBXContainerItemProxy */;
+		};
 		3CC9B76F9C4C66D632789650E69EC4CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Accelo";
 			target = 982D27908DF73431AE53CB464D5EB4E3 /* Pods-Accelo */;
 			targetProxy = A8962EC63912D48C53E681AFA3394462 /* PBXContainerItemProxy */;
 		};
-		5E15E95081DFD1A72569A6BDE26B64D2 /* PBXTargetDependency */ = {
+		41DA0D815AC3E80301C2762D0DC829BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 69C53F7462226DF99D173F39CD5D6CEE /* PBXContainerItemProxy */;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 7D8A854DED9E52247E09A2F8E5C2D13C /* PBXContainerItemProxy */;
 		};
-		CBAF92D226203E589382A05C21E44530 /* PBXTargetDependency */ = {
+		7B2FD34B9F006783AD9B7A2FF0D1C5DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = D4EC61B387DD40AEA743C3DFEC2C6C61 /* PBXContainerItemProxy */;
+			targetProxy = 6911BBEF868C455B4F428089D481F77F /* PBXContainerItemProxy */;
+		};
+		7FAF27203383473C4158AA28B7791C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = B7744F31C9FC5EAAC6455D1008B027BD /* PBXContainerItemProxy */;
+		};
+		BF8C95B1DB0BE31BE74BFFB778974CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 07A711AA8C398BFA4FD63AE40887C38E /* PBXContainerItemProxy */;
+		};
+		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
+		};
+		D7288C493740F71A3CA382102E0E00E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = D677EAE07E00F10655F942312AAF1F75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A3F69A551797F291CA1805EACAD6544 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9280504706529B6C6DD88DA7E85AD261 /* Pods-Accelo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3D44AFE06F7276AF01D0357392F72B4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B50D77B30AB24A96F260AC26E3F15054 /* Pods-AcceloTests.debug.xcconfig */;
+			baseConfigurationReference = 98F0F8475D7AAF6AA02262BC9B94A643 /* Pods-AcceloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -507,7 +674,7 @@
 		};
 		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			baseConfigurationReference = A546DD58060DD296D8F3846D7C1361E3 /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -521,9 +688,25 @@
 			};
 			name = Debug;
 		};
-		4B6293828F8BF63CC8D43F727597A7F6 /* Release */ = {
+		4AE9FC8A852243DC9A2EFE9BA39BAC7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB508DA86EAA90FD4AEFDD79D20F0DA1 /* Pods-Accelo-AcceloUITests.release.xcconfig */;
+			baseConfigurationReference = C1415474BEE8FBCFBA8808FDBBEC7665 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C64A9D70B0E3A0AF0F2D5892F833BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628A056F8507A4A6D7DEB05D6B928885 /* Pods-Accelo-AcceloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -554,45 +737,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4FC93F85F4CAF50D07DDD09F5986545A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B8BA4FEECB06CAA331A1074D089838B /* Pods-Accelo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -600,11 +744,28 @@
 		};
 		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			baseConfigurationReference = 02CF1149C669B600A0EBFEE5A5D30AA1 /* SwiftLint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573B04AB9E058A1911353A22A780E993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4548D47F5B008164DACC9D7B882754A4 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,6 +840,45 @@
 			};
 			name = Debug;
 		};
+		6D63976B701A4511B795A25FC5B4A2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E1B2EE79E9035D1918EAB11CAEDA7D /* Pods-Accelo-AcceloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,9 +939,9 @@
 			};
 			name = Release;
 		};
-		B38B239D41285346A2EE5A252058CF98 /* Debug */ = {
+		8A590D71EE8C041B0CECF4B8C0995915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E107636E5416F2580B57AF748EC1C14 /* Pods-Accelo-AcceloUITests.debug.xcconfig */;
+			baseConfigurationReference = DC3BECB2B818DA228C0BE03A20879B61 /* Pods-Accelo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -754,7 +954,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -763,7 +963,63 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7417E89991DA0077DEB4B24662DAAF /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71324466D7C197CA2EB6F6AA89F7FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C17B3A910A98AE3E4480289D061C911 /* Pods-Accelo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Accelo/Pods-Accelo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -779,7 +1035,7 @@
 		};
 		CEDDA9D28E7F8E17C5ADC5A22F22585A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3348B15185301AF8203E83E015FEE682 /* Pods-AcceloTests.release.xcconfig */;
+			baseConfigurationReference = 10C8E1355AEB8DFEF6AD8DD0265BD021 /* Pods-AcceloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -816,14 +1072,39 @@
 			};
 			name = Release;
 		};
+		E1E452060D51DF935547186CE54B26CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268384F29C3F58B621098117309BD421 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FA0E9E64D886A022FBB3A337AB9DA01 /* Build configuration list for PBXNativeTarget "Pods-Accelo-AcceloUITests" */ = {
+		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38B239D41285346A2EE5A252058CF98 /* Debug */,
-				4B6293828F8BF63CC8D43F727597A7F6 /* Release */,
+				4AE9FC8A852243DC9A2EFE9BA39BAC7B /* Debug */,
+				573B04AB9E058A1911353A22A780E993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E452060D51DF935547186CE54B26CC /* Debug */,
+				8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -846,6 +1127,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		73E340E38AEA599120FE24965A3CDD95 /* Build configuration list for PBXNativeTarget "Pods-Accelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71324466D7C197CA2EB6F6AA89F7FB7 /* Debug */,
+				8A590D71EE8C041B0CECF4B8C0995915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -855,11 +1145,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8CAC235C957C67EFB95BD8D116F8A86 /* Build configuration list for PBXNativeTarget "Pods-Accelo" */ = {
+		B6027D0CE03B0FEEFAB6B6C21D74AE97 /* Build configuration list for PBXNativeTarget "Pods-Accelo-AcceloUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FC93F85F4CAF50D07DDD09F5986545A /* Debug */,
-				1A3F69A551797F291CA1805EACAD6544 /* Release */,
+				4C64A9D70B0E3A0AF0F2D5892F833BBC /* Debug */,
+				6D63976B701A4511B795A25FC5B4A2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
