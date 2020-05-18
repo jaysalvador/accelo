@@ -13,7 +13,7 @@ import GoogleMaps
 
 public typealias ViewModelCallback = (() -> Void)
 
-protocol ViewModelProtocol {
+public protocol ViewModelProtocol {
     
     // MARK: - Data
     

@@ -1,0 +1,2630 @@
+[
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280506,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280504,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280510,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.498266",
+      "street": {
+        "id": 953524,
+        "name": "On or near Abingdon Street"
+      },
+      "longitude": "-0.125750"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74278425,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280509,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280508,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.495903",
+      "street": {
+        "id": 953275,
+        "name": "On or near Marsham Street"
+      },
+      "longitude": "-0.129262"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74283328,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280507,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280461,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280505,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496706",
+      "street": {
+        "id": 953276,
+        "name": "On or near Lord North Street"
+      },
+      "longitude": "-0.127154"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280503,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497482",
+      "street": {
+        "id": 953257,
+        "name": "On or near Parking Area"
+      },
+      "longitude": "-0.127310"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280502,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280501,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.498266",
+      "street": {
+        "id": 953524,
+        "name": "On or near Abingdon Street"
+      },
+      "longitude": "-0.125750"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280499,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280459,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.498266",
+      "street": {
+        "id": 953524,
+        "name": "On or near Abingdon Street"
+      },
+      "longitude": "-0.125750"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280424,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.498266",
+      "street": {
+        "id": 953524,
+        "name": "On or near Abingdon Street"
+      },
+      "longitude": "-0.125750"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280423,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280421,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280460,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "anti-social-behaviour",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": null,
+    "persistent_id": "",
+    "id": 74280462,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "bicycle-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496040",
+      "street": {
+        "id": 953523,
+        "name": "On or near Dean Stanley Street"
+      },
+      "longitude": "-0.126014"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "3ffc8109690897692619004426dfd6a4e513afde7bfe27300fea6656d21b04be",
+    "id": 74302702,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "criminal-damage-arson",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Offender given penalty notice",
+      "date": "2019-09"
+    },
+    "persistent_id": "131b63a79c07f1c75d9b3bac8e5ff7281ac21f5fed9222479107b306db396679",
+    "id": 74329457,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "criminal-damage-arson",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "f9968f7add8a61e4453fc31209ab28203c8ab9231053a161a35653b1c22468f5",
+    "id": 74346616,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "criminal-damage-arson",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "e98c9eee7592677d616160a346d40acc38097b964f21032c18e746ccf614aa41",
+    "id": 74303767,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "drugs",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Local resolution",
+      "date": "2019-05"
+    },
+    "persistent_id": "7684e9364254277a5c4cc4eb0aa79115e1f54a1b532d4930057bb6c15558d174",
+    "id": 74316793,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "drugs",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683467,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "drugs",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Offender given penalty notice",
+      "date": "2019-05"
+    },
+    "persistent_id": "5f9fe4d5966d62a423d9ad40a267ad77bd0c7f3b58897951913147e42b545667",
+    "id": 74299013,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "drugs",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Local resolution",
+      "date": "2019-05"
+    },
+    "persistent_id": "abd4d7d7f2c77056484c48e62e99b233acb9fcf86bbbd02069afaaf07577ab60",
+    "id": 74296623,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "edbea9732f2507e20f6e9c21c59ac350e1735460819987ca79717499eb98d556",
+    "id": 74315464,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "afd0a541076564541799e82c2314507072709816bbc413cd1b6ca19b2787681a",
+    "id": 74300675,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "70948b632f9301b3ceb673bbc72a7f1f1cf4123af907e6090aebb8cf9eb687c2",
+    "id": 74300761,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "b4b06a8696b1e6be06864a50701a13389746249cf35ac5ae11de87c601277a42",
+    "id": 74300991,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "8a41b330e2de83bdcfb7b1c9636b42233360938136b62d892e12aedf80bb519f",
+    "id": 74303677,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "6aca38f99295ad83de5393f3307d6b6281f9af03b8355c72202fc39025671ac7",
+    "id": 74294351,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.495903",
+      "street": {
+        "id": 953275,
+        "name": "On or near Marsham Street"
+      },
+      "longitude": "-0.129262"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5d46821f881aebca14310d3fabca64f5e3da2f024c4f396f07463516751a9663",
+    "id": 74318239,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "218b4755da8319aad44ab53dae3fa33ab2c49b21e2189d2e7bf694829c6ce0ac",
+    "id": 74308185,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.495903",
+      "street": {
+        "id": 953275,
+        "name": "On or near Marsham Street"
+      },
+      "longitude": "-0.129262"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "4418178cb005d460937c192249d8603e0347221aabb2a86fff83067b7dfc5923",
+    "id": 74309187,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.495646",
+      "street": {
+        "id": 953302,
+        "name": "On or near Police Station"
+      },
+      "longitude": "-0.128926"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "1e27f7db527b5e7864acfbc8c9ca97e1eaba05ca22ce69d827be9eb131672d38",
+    "id": 74305032,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497255",
+      "street": {
+        "id": 953278,
+        "name": "On or near Little College Street"
+      },
+      "longitude": "-0.126656"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "104206dedcb7a1423c0c1439d0046bf268b956878a079a74052936d90e5899c0",
+    "id": 74315270,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "87deeef8bca4bf912455657e426b7eda9c508ae70cb11a4b19f3325fce83b0d2",
+    "id": 74306820,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "532503c755af5375b077a4e76d2bd34132efe450381513f3237e82ccf3d4db6a",
+    "id": 74306599,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683466,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "959706048bf46688c618ae0edd9c66bd8220d0b196ed4071fff95416304e14fd",
+    "id": 74310789,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "0af3cf0ad178c8a62b31f21d2e74b56f7206e00b90c8226cec83adb1b1e4686a",
+    "id": 74311798,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "8d6549d1fc8231bccd7c0c252529c1b6457db7f757795c13cbbd6bf8ef5e1540",
+    "id": 74357268,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "0d42d60cf4214d4162e1249756bebddd1951728b0f952dd78ccb0e6909923bf4",
+    "id": 74290521,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "bc58591bfb71eaf90f89b5be10a50fa612b7dcce5c8438c460e8a54f30bab25d",
+    "id": 74352191,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "3bd38ecef744279f730abfdbe0de369316a8b4d6bb45e32802a6794d6bc458d1",
+    "id": 74334544,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496780",
+      "street": {
+        "id": 953297,
+        "name": "On or near Conference/exhibition Centre"
+      },
+      "longitude": "-0.128966"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "8f0a23e0ed4bed72b1e65c4853d560b56e5645873d569dc10dbfa76a6334a7d4",
+    "id": 74335839,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "other-theft",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497482",
+      "street": {
+        "id": 953257,
+        "name": "On or near Parking Area"
+      },
+      "longitude": "-0.127310"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "766ce775ad1391224da157feb133116ea8cfa8fe5758ac2a3e89a810354f159a",
+    "id": 74298475,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Local resolution",
+      "date": "2019-05"
+    },
+    "persistent_id": "645a3f4d0b39a1288b214b79359a97714d7a4b10138c214994fca843cbb1a3c4",
+    "id": 74321432,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Local resolution",
+      "date": "2019-05"
+    },
+    "persistent_id": "a8ea6dd42f4b0ebaeceef1ce0cd55c35f72d684eb5d57123cb9b0d715b6663ab",
+    "id": 74355478,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Local resolution",
+      "date": "2019-06"
+    },
+    "persistent_id": "334b3260ba91a18a83688c9a4120dfdacc603e2bde49feb20a7e20e7f5aa0eb6",
+    "id": 74317308,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "3369afe886d9dff77d49d3335a6069b89d5dd275849fa82a7e895303f3189497",
+    "id": 74317423,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "a6bca6e1b693f7f151608a93c70c196c09009c71ff994acb2c46783753fc273d",
+    "id": 74359717,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "possession-of-weapons",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Court result unavailable",
+      "date": "2020-02"
+    },
+    "persistent_id": "912476ef913ccaa13323de2d736c2b72e2d38974895cf62ff982d91955bd6633",
+    "id": 74299944,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "public-order",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "a5d32ed5db54d3c92f54799965968ed01c1c9a5bf0da94fb82722ccd17cb239c",
+    "id": 74313561,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "public-order",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683470,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "public-order",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683469,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "public-order",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683468,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "public-order",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "4776ef90f6c4bd331a26699cbacc4fd592c6d71cde693f4d0a29a59d066c05ff",
+    "id": 74293720,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Court result unavailable",
+      "date": "2019-11"
+    },
+    "persistent_id": "f9adceca517d1785a31cb38e2e39171d07c8f9799a72a0dfa87d99943a41a60d",
+    "id": 74346418,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "6a51bfe0e1fa1d9a183668fb6d3d95a28df369adb15f28492d88eca4eeab46fb",
+    "id": 74327040,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "486c3fa0e3b005017d38744600fa2b147d134979e855841ff7c667b40d4fbbd3",
+    "id": 74347996,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "e6cf34d0f323bbd2f6142f52fc6a0812b27f486a9f06d23e652087a5321556a4",
+    "id": 74311510,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "115e2cbc15caf6dae04264befd7d8bb8e671b2a0f7ff4b3f9919ca2b0e506506",
+    "id": 74365670,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "robbery",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.496517",
+      "street": {
+        "id": 953284,
+        "name": "On or near Gayfere Street"
+      },
+      "longitude": "-0.127724"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "a14669b778a5a1da3fe2e0c885d5ae8d701514db022c31607b8d3e1d0f62640d",
+    "id": 74318524,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683471,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683483,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683484,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683474,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683482,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683472,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683473,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683475,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683476,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683477,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683478,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683479,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683480,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683481,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "893777eb571de146c5fb8048ddf924e78a0e6d81550e977f57f1b972864adfe0",
+    "id": 74299664,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Court result unavailable",
+      "date": "2020-01"
+    },
+    "persistent_id": "4c7c159661a9b878d3e0d103f5be115f1607cdbfe39b0b1e701bfac7ef407c18",
+    "id": 74303082,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "05e5c608875c8f2b39ecdf930f429061b1781c2e2036c701c2d12394f5bd4cf8",
+    "id": 74350872,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "c834e66f2b1168b32341d161ec274282896e3b68be332526ddb0322d485a15b6",
+    "id": 74369590,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "67bb1a90715353b3dedf6f906daa5462d8aed5e2915e420ea47f73dc92efb507",
+    "id": 74304141,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "487ad8c3e01f22d1fb4d5fc4f8c7511fe2aff7ad995e66c2e8dad6c9566f00e7",
+    "id": 74304263,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "d90a04b1e08951f62310e7ee62b6d7d264cecb08ff6b94b345fcb648bab5c54d",
+    "id": 74292696,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "49e38088a83dfaf264c9da9301b14a922dd5554fc3be418e333d9229337e3a0c",
+    "id": 74325931,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "8e71324ad3850ea7757bda2da772f2e42283764003e9b53d24972f116ea81160",
+    "id": 74326509,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "8ddae13e926da8023d49115a428a8900fea0c167ddc37b1f3983079df124302e",
+    "id": 74326725,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5db71f89d070bbc483c3325e0bb3fa60606a76837a887fade846f9dcc360f6bd",
+    "id": 74342372,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "f485235521bb1a1ac7e67380457b530730a05cb3b9a5967971401196db6881c4",
+    "id": 74344560,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "3ff3ac6ce29053d87da33d7ac236baa82148ecf9a8db8cb705b84e23e7f1d1a8",
+    "id": 74321382,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "340cc77105106dab52cf0f6cbb03844c676310f0ad30e4b06d202d3f84841e5f",
+    "id": 74348555,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "cb46ffb714c2f7ad9d40c5d4c8535a1941b3e6a8a07cca3e8978457a774a1d04",
+    "id": 74350859,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "e5013933693070c7634a958aeaec982553325d247abb39f1b05c696c0c418885",
+    "id": 74361160,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497255",
+      "street": {
+        "id": 953278,
+        "name": "On or near Little College Street"
+      },
+      "longitude": "-0.126656"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "09fb8f6f1d5eb608022a720a71c7da8bd4daa7ded01ec5cb43cf278e7708fb1a",
+    "id": 74361419,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497255",
+      "street": {
+        "id": 953278,
+        "name": "On or near Little College Street"
+      },
+      "longitude": "-0.126656"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "09fb8f6f1d5eb608022a720a71c7da8bd4daa7ded01ec5cb43cf278e7708fb1a",
+    "id": 74361421,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497255",
+      "street": {
+        "id": 953278,
+        "name": "On or near Little College Street"
+      },
+      "longitude": "-0.126656"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "09fb8f6f1d5eb608022a720a71c7da8bd4daa7ded01ec5cb43cf278e7708fb1a",
+    "id": 74361423,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "624c8c94c761ce82b09bb3dfd743a8bf8a427584dd26a74224beeee8bfc0003a",
+    "id": 74365860,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "a4e2e50d384d98fd74f6fa0ec8e07dad7f3593b8dd47a291b85e8accf0b569a0",
+    "id": 74367981,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "f4268314c103650cb89f229e0da31d496cf2f49a54a4dd3d952939dfaff5ac0e",
+    "id": 74369547,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "theft-from-the-person",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "e5f3a1fbeec4925c0db9c8443749a8358706bb5ef7e4a497e1f7b349e1d9a155",
+    "id": 74370007,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "vehicle-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501992",
+      "street": {
+        "id": 953531,
+        "name": "On or near Derby Gate"
+      },
+      "longitude": "-0.125381"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "784663a0b10fd8c4b73be064aefad543a7c7349322f825767a12db362f5181a7",
+    "id": 74369289,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "vehicle-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.495909",
+      "street": {
+        "id": 953285,
+        "name": "On or near Dean Trench Street"
+      },
+      "longitude": "-0.127936"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "6353bb028e74ef6f0d1c19e78ef75925a3fbf2abad76ae8e247614a4ded28a6e",
+    "id": 74317521,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "eaac53c4ae0d2a1c59a1e6760dcaee086bcdc4430ce7b1e4e4462ea667fd3b4e",
+    "id": 74344904,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683462,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683461,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.497482",
+      "street": {
+        "id": 953257,
+        "name": "On or near Parking Area"
+      },
+      "longitude": "-0.127310"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "a0a11c31ca1372035546300100227515960905fae5af20242794d9aed8216206",
+    "id": 74372308,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297175,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683465,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683464,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683463,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "6346b4c071a18b549e7777bbe44532cdb744b651f581cb6480de9128b54a7952",
+    "id": 74312561,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.498266",
+      "street": {
+        "id": 953524,
+        "name": "On or near Abingdon Street"
+      },
+      "longitude": "-0.125750"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "afacd22835b41d858f5dd19e3e6e2c925e6d9541f5cafc38c8964c5b02275b5c",
+    "id": 74310444,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "fa42282e43477879e954d3fc592d43e58feb0b7cf675d76fbb96bc6e461d02ec",
+    "id": 74294905,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "aa83a8eb3008fdceeb364afd6c96740f311218f7debe702a09030127779a2163",
+    "id": 74299177,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297180,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297179,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297178,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297177,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683460,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "96d2e104331f16c8de2a3bac38fde5a596e70b16f73e67beac7b23f5617b1cce",
+    "id": 74369890,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "5b88e13adab3ad34e2babb4d30eabbce317c166352a536939ab670f935b3bcbb",
+    "id": 74297176,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.503196",
+      "street": {
+        "id": 953311,
+        "name": "On or near Downing Street"
+      },
+      "longitude": "-0.127032"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "bc5a5885772e073950cdfb52e6e4350ffed9039cab7dd1f4331dc577cd58ca64",
+    "id": 74355594,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "Force",
+    "location": {
+      "latitude": "51.501490",
+      "street": {
+        "id": 953532,
+        "name": "On or near Canon Row"
+      },
+      "longitude": "-0.125503"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Awaiting court outcome",
+      "date": "2019-10"
+    },
+    "persistent_id": "7aa2a9e1a224419bbdbc65a1b670c016a5ca0ad40a51bbbb33df993c5becde76",
+    "id": 74303508,
+    "location_subtype": "",
+    "month": "2019-05"
+  },
+  {
+    "category": "violent-crime",
+    "location_type": "BTP",
+    "location": {
+      "latitude": "51.501400",
+      "street": {
+        "id": 1488666,
+        "name": "Westminster (lu Station)"
+      },
+      "longitude": "-0.124915"
+    },
+    "context": "",
+    "outcome_status": {
+      "category": "Status update unavailable",
+      "date": "2019-09"
+    },
+    "persistent_id": "",
+    "id": 82683459,
+    "location_subtype": "LU STATION",
+    "month": "2019-05"
+  }
+]

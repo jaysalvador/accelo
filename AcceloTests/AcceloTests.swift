@@ -8,27 +8,46 @@
 
 import XCTest
 @testable import Accelo
+@testable import AcceloCrimeAPI
 
 class AcceloTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let crimes = self.getCrimes()
+        
+        XCTAssertEqual(crimes.count, 128, "data must have 128 crimes")
+        
+        let lastCrime = crimes.last
+        
+        XCTAssertEqual(lastCrime?.title, "Violent Crime", "Crime must be: Violent Crime")
+        
+        XCTAssertEqual(lastCrime?.outcomeStatus?.category, "Status update unavailable", "Status must be: Status update unavailable")
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func getCrimes() -> [Crime] {
+        
+        let expectation = self.expectation(description: "no data recieved")
+        
+        var crimes = [Crime]()
+        
+        DataHelper.getData { (response) in
+            
+            switch response {
+                
+            case .success(let _crimes):
+                
+                crimes = _crimes
+                
+            case .failure:
+                
+                break
+            }
+            expectation.fulfill()
         }
+        wait(for: [expectation], timeout: 5.0)
+        
+        return crimes
     }
 
 }

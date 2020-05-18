@@ -38,6 +38,8 @@
 		B5144BC7247188CE00167669 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BC6247188CE00167669 /* ViewModel.swift */; };
 		B5144BCD2472019900167669 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BCC2472019900167669 /* CLLocationCoordinate2D.swift */; };
 		B5144BCF2472213800167669 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BCE2472213800167669 /* Array.swift */; };
+		B5144BD12472259F00167669 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B5144BD02472259F00167669 /* data.json */; };
+		B5144BD3247225C500167669 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5144BD2247225C500167669 /* DataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		B5144BC6247188CE00167669 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B5144BCC2472019900167669 /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
 		B5144BCE2472213800167669 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		B5144BD02472259F00167669 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B5144BD2247225C500167669 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 		C8BD99C622A89554B1F4DB78 /* Pods-Accelo-AcceloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.release.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3F058A4CF568CC734492CB4 /* Pods-Accelo-AcceloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accelo-AcceloUITests.debug.xcconfig"; path = "Target Support Files/Pods-Accelo-AcceloUITests/Pods-Accelo-AcceloUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F814A7D0536EECD5CA60E6C3 /* Pods-AcceloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloTests.debug.xcconfig"; path = "Target Support Files/Pods-AcceloTests/Pods-AcceloTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,7 +216,9 @@
 		B5144B6D247174DD00167669 /* AcceloTests */ = {
 			isa = PBXGroup;
 			children = (
+				B5144BD02472259F00167669 /* data.json */,
 				B5144B6E247174DD00167669 /* AcceloTests.swift */,
+				B5144BD2247225C500167669 /* DataHelper.swift */,
 				B5144B70247174DD00167669 /* Info.plist */,
 			);
 			path = AcceloTests;
@@ -453,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5144BD12472259F00167669 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5144B6F247174DD00167669 /* AcceloTests.swift in Sources */,
+				B5144BD3247225C500167669 /* DataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
