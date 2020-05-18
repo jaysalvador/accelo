@@ -27,6 +27,8 @@ public protocol ViewModelProtocol {
     
     var crimes: [Crime]? { get }
     
+    var newCrimes: [Crime]? { get }
+    
     var error: HttpError? { get }
     
     // MARK: - Callbacks
@@ -63,6 +65,8 @@ class ViewModel: ViewModelProtocol {
     var bounds: GMSCoordinateBounds?
     
     private(set) var crimes: [Crime]?
+    
+    private(set) var newCrimes: [Crime]?
     
     private(set) var error: HttpError?
     
@@ -111,10 +115,14 @@ class ViewModel: ViewModelProtocol {
                     if existingCrimes == nil {
                     
                         self?.crimes = crimes
+                        
+                        self?.newCrimes = crimes
                     }
                     else {
                         
-                        self?.crimes?.append(contentsOf: crimes.filter { (existingCrimes?.contains($0) == false ) })
+                        self?.newCrimes = crimes.filter { (existingCrimes?.contains($0) == false ) }
+                        
+                        self?.crimes?.append(contentsOf: self?.newCrimes ?? [])
                     }
                     
                     self?.onUpdated?()

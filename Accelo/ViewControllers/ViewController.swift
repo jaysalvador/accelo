@@ -110,11 +110,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     
     private func updateAnnotations() {
         
-        self.mapView?.clear()
-        
-        self.showDetails(false)
-        
-        if let crimes = self.viewModel.crimes, crimes.count > 0 {
+        if let crimes = self.viewModel.newCrimes, crimes.count > 0 {
 
             for crime in crimes {
                 
@@ -154,12 +150,10 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         self.viewModel.lng = position.target.longitude
         
         self.viewModel.bounds = GMSCoordinateBounds(region: mapView.projection.visibleRegion())
+
+        self.debounceMethod?()
         
-        if mapView.selectedMarker == nil {
-            
-            self.debounceMethod?()
-        }
-        else {
+        if mapView.selectedMarker != nil {
             
             self.showDetails(true)
         }
