@@ -38,3 +38,11 @@ public struct Crime: Codable {
     }
     
 }
+
+extension Crime {
+    
+    public var title: String? {
+        
+        return category?.replacingOccurrences(of: "-", with: " ").capitalized
+    }
+}

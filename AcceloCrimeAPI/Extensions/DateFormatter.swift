@@ -19,4 +19,14 @@ extension DateFormatter {
         
         return dateFormatter
     }()
+    
+    public static let dateMonthReadable: DateFormatter = {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = .current
+        dateFormatter.dateFormat = "MMMM yyyy"
+        dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
+        
+        return dateFormatter
+    }()
 }

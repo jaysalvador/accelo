@@ -8,6 +8,7 @@
 
 import Foundation
 import AcceloCrimeAPI
+import MapKit
 
 public typealias ViewModelCallback = (() -> Void)
 
@@ -34,6 +35,8 @@ protocol ViewModelProtocol {
     // MARK: - Functions
     
     func getCrimes()
+    
+    func getCrime(with coordinate: CLLocationCoordinate2D, title: String?) -> Crime?
 }
 
 class ViewModel: ViewModelProtocol {
@@ -103,4 +106,8 @@ class ViewModel: ViewModelProtocol {
         }
     }
     
+    func getCrime(with coordinate: CLLocationCoordinate2D, title: String?) -> Crime? {
+        
+        return self.crimes?.first { $0.location?.coordinates == coordinate && $0.title == title }
+    }
 }
