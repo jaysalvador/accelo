@@ -36,7 +36,10 @@ Tapping on the marker will show further details on the offence committed in the 
 ## Installation
 
 open terminal
+
 ```
 cd /your/path/to/accelo/project/
 pod install
 ```
+
+open Accelo.xcworkspace and run build
