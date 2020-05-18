@@ -151,6 +151,8 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         self.viewModel.lng = position.target.longitude
         
+        self.viewModel.bounds = GMSCoordinateBounds(region: mapView.projection.visibleRegion())
+        
         if mapView.selectedMarker == nil {
             
             self.debounceMethod?()
@@ -162,14 +164,17 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     }
     
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
-
-        mapView.selectedMarker = marker
         
-        mapView.animate(toLocation: marker.position)
+        self.showDetails(false) { [weak self] _ in
 
-        let crime = self.viewModel.getCrime(with: marker.position, title: marker.title)
-        
-        self.updateDetails(with: crime)
+            mapView.selectedMarker = marker
+            
+            mapView.animate(toLocation: marker.position)
+
+            let crime = self?.viewModel.getCrime(with: marker.position, title: marker.title)
+            
+            self?.updateDetails(with: crime)
+        }
 
         return true
     }
@@ -179,6 +184,14 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         if gesture {
             
             mapView.selectedMarker = nil
+            
+            self.showDetails(false)
+        }
+    }
+    
+    func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+        
+        if mapView.selectedMarker?.position == nil {
             
             self.showDetails(false)
         }

@@ -9,6 +9,7 @@
 import Foundation
 import AcceloCrimeAPI
 import MapKit
+import GoogleMaps
 
 public typealias ViewModelCallback = (() -> Void)
 
@@ -21,6 +22,8 @@ protocol ViewModelProtocol {
     var lng: Double { get set }
     
     var date: Date? { get set }
+    
+    var bounds: GMSCoordinateBounds? { get set }
     
     var crimes: [Crime]? { get }
     
@@ -57,6 +60,8 @@ class ViewModel: ViewModelProtocol {
     
     var date: Date?
     
+    var bounds: GMSCoordinateBounds?
+    
     private(set) var crimes: [Crime]?
     
     private(set) var error: HttpError?
@@ -83,26 +88,36 @@ class ViewModel: ViewModelProtocol {
     
     func getCrimes() {
         
-        self.crimeClient?.getCrimes(
-            lat: self.lat,
-            lng: self.lng,
-            date: self.date?.toString(using: .dateMonth)
-        ) { [weak self] response in
+        if let bounds = self.bounds {
             
-            switch response {
-            case .success(let crimes):
+            var poly = "\(bounds.northEast.latitude),\(bounds.northEast.longitude)"
+            
+            poly += ":\(bounds.northEast.latitude),\(bounds.southWest.longitude)"
+            
+            poly += ":\(bounds.southWest.latitude),\(bounds.northEast.longitude)"
+            
+            poly += ":\(bounds.southWest.latitude),\(bounds.southWest.longitude)"
+            
+            self.crimeClient?.getCrimes(
+                poly: poly,
+                date: self.date?.toString(using: .dateMonth)
+            ) { [weak self] response in
                 
-                self?.crimes = crimes
+                switch response {
+                case .success(let crimes):
+                    
+                    self?.crimes = crimes
+                    
+                    self?.onUpdated?()
+                    
+                case .failure(let error):
+                    
+                    self?.error = error
+                    
+                    self?.onError?()
+                }
                 
-                self?.onUpdated?()
-                
-            case .failure(let error):
-                
-                self?.error = error
-                
-                self?.onError?()
             }
-            
         }
     }
     

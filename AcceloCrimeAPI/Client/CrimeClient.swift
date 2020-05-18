@@ -13,6 +13,8 @@ public protocol CrimeClientProtocol {
     func getCrimes(lat: Double?, lng: Double?, onCompletion: HttpCompletionClosure<[Crime]>?)
         
     func getCrimes(lat: Double?, lng: Double?, date: String?, onCompletion: HttpCompletionClosure<[Crime]>?)
+    
+    func getCrimes(poly: String?, date: String?, onCompletion: HttpCompletionClosure<[Crime]>?)
         
     func getCrimes(request: CrimeClient.CrimeRequest, onCompletion: HttpCompletionClosure<[Crime]>?)
 }
@@ -27,6 +29,13 @@ public class CrimeClient: HttpClient, CrimeClientProtocol {
     public func getCrimes(lat: Double?, lng: Double?, date: String?, onCompletion: HttpCompletionClosure<[Crime]>?) {
         
         let request = CrimeClient.CrimeRequest(lat: lat, lng: lng, date: date)
+        
+        self.getCrimes(request: request, onCompletion: onCompletion)
+    }
+    
+    public func getCrimes(poly: String?, date: String?, onCompletion: HttpCompletionClosure<[Crime]>?) {
+            
+        let request = CrimeClient.CrimeRequest(poly: poly, date: date)
         
         self.getCrimes(request: request, onCompletion: onCompletion)
     }
