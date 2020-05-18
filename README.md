@@ -2,6 +2,10 @@
 
 Demo App for Accelo showing crime map of London
 
+<p align="left">
+  <img src="https://github.com/jaysalvador/accelo/blob/master/images/01.png" width="150" alt="accessibility text">
+</p>
+
 ## Accelo Crime API
 
 Implemented `HttpClient` class to handle HTTP requests to the API and decodes the response to any `Decodable` type object.
