@@ -112,6 +112,8 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         self.mapView?.clear()
         
+        self.showDetails(false)
+        
         if let crimes = self.viewModel.crimes, crimes.count > 0 {
 
             for crime in crimes {

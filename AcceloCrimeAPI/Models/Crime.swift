@@ -46,3 +46,11 @@ extension Crime {
         return category?.replacingOccurrences(of: "-", with: " ").capitalized
     }
 }
+
+extension Crime: Equatable {
+    
+    public static func == (lhs: Crime, rhs: Crime) -> Bool {
+        
+        return lhs.id == rhs.id
+    }
+}

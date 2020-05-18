@@ -106,10 +106,19 @@ class ViewModel: ViewModelProtocol {
                 switch response {
                 case .success(let crimes):
                     
-                    self?.crimes = crimes
+                    let existingCrimes = self?.crimes
+                    
+                    if existingCrimes == nil {
+                    
+                        self?.crimes = crimes
+                    }
+                    else {
+                        
+                        self?.crimes?.append(contentsOf: crimes.filter { (existingCrimes?.contains($0) == false ) })
+                    }
                     
                     self?.onUpdated?()
-                    
+                
                 case .failure(let error):
                     
                     self?.error = error
