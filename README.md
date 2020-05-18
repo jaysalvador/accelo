@@ -28,3 +28,11 @@ Tapping on the marker will show further details on the offence committed in the 
 
 `AcceloTests`
 - `testExample`: provides simple testing on parsing data
+
+## Installation
+
+open terminal
+```
+cd /your/path/to/accelo/project/
+pod install
+```
